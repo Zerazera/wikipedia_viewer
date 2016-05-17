@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+
+  <head>
+  <title>Wikipedia Viewer</title>
+  <meta name='description' content='It&apos;s a wikipedia viewer.' />
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <meta name='author' content='Samuel Cupidon' />
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' />
+  <link rel='stylesheet' href='./css/main.css' />
+  </head>
+
+  <body>
+    <div class='container-fluid'>
+      <div class='row-fluid'>
+        <div class='col-sm-6 col-sm-offset-3'>
+          <h1 class='text-center'><strong><span class='blue'>W</span><span class='red'>i</span><span class='purple'>k</span><span class='blue'>i</span><span class='green'>p</span><span class='red'>e</span><span class='blue'>d</span><span class='purple'>i</span><span class='green'>a</span></strong></h1>
+          <br>
+          <input type='text' autofocus autocomplete='off' id='searchBar' class='form-control'>
+          <p id='searchCaption' class='hidden'>Searching...</p>
+            <div class='form-group col-sm-offset-2 col-md-offset-4'>
+              <button class='btn btn-default' id='#searchButton'>Wiki Search</button>
+              <a href='https://en.wikipedia.org/wiki/Special:Random' target='_blank' class='btn btn-default'>I'm Feeling Random</a>
+            </div><!--buttons-->
+            </input><!--searchBar-->
+        <br><br>
+        <ul class='list-group'>
+        </ul><!--list-group-->
+      </div><!--.col-sm-6-->
+      </div><!--row-fluid-->
+    </div><!--container-fluid-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+    <script src='./js/main.js'></script>
+  </body>
+</html>

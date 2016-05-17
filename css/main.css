@@ -1,0 +1,66 @@
+body {
+  font:sans-serif;
+  margin-top:10%;
+}
+
+.blue {
+  color:blue;
+}
+
+.red {
+  color:red;
+}
+
+.purple {
+  color:purple;
+}
+
+.green {
+  color:green;
+}
+
+input[type='text']:focus {
+  border:1px solid blue;
+}
+
+input[type='text']:hover:not(:focus) {
+  border:1px solid gray;
+}
+
+.btn {
+  margin:5% 1% 0 0;
+  color:gray;
+  background-color:#F2F2F2;
+  border:1px solid #FFFFFF;
+}
+
+.btn:hover {
+  border:1px solid gray;
+  color:black;
+}
+
+.list-group a:link, .list-group a:visited, .list-group a:hover, .list-group a:active {
+  text-decoration:none;
+  color:black;
+  outline:none;
+}
+
+.list-group a:visited {
+  background-color:lightgray;
+}
+
+#searchCaption {
+  color:gray;
+}
+
+h1 {
+  font-size:60px;
+}
+
+.highlight {
+  background-color:yellow;
+}
+
+.title {
+  font-weight:bold;
+}
